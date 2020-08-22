@@ -1,4 +1,4 @@
-package concurrency.tool;
+package concurrency.semaphore;
 
 import java.util.concurrent.Semaphore;
 import java.util.stream.IntStream;

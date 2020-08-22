@@ -1,4 +1,4 @@
-package concurrency.tool;
+package concurrency.semaphore;
 
 import java.util.List;
 import java.util.Vector;
