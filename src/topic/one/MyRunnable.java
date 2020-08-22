@@ -8,6 +8,11 @@ public class MyRunnable implements Runnable {
 
     public static void main(String[] args) {
         Thread thread = new Thread(new MyRunnable());
-        thread.run();
+        thread.start();
+
+        Thread thread1 = new Thread(() -> {
+            System.out.println("Hi I am lambda runnable");
+        });
+        thread1.start();
     }
 }
