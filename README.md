@@ -5,7 +5,7 @@
 - [X] 執行緒的實作 Thread / Runnable / Callable
 - [X] Thread / Runnable的比較
 - [ ] 執行緒中斷練習
-- [ ] Executor
+- [X] Executor
 - [ ] 同步synchronized和ReentrantLock
 - [ ] 快取模型
 - [ ] 執行緒安全
